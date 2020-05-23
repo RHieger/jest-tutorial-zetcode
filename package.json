@@ -1,0 +1,9 @@
+{
+  "name": "jest-test",
+  "version": "1.0.0",
+  "description": "A tutorial in doign JavaScript unit testing with Jest framework",
+  "main": "main.js",
+  "author": "Robert Hieger <rhieger@gmail.com>",
+  "license": "ISC",
+  "private": false
+}
