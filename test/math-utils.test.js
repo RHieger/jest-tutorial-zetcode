@@ -1,3 +1,5 @@
+const { sum, positive, negative } = require("../source/math-utils");
+
 let vals;
 let sum_of_vals;
 let pos_vals;
@@ -15,7 +17,7 @@ test("the sum of vals should be 2", () => {
 });
 
 test("should get positive values", () => {
-  expect(positive(vals)).toEqual(sum_of_vals);
+  expect(positive(vals)).toEqual(pos_vals);
 });
 
 test("should get negative values", () => {
