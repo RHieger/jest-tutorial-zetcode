@@ -6,10 +6,15 @@
   "author": "Robert Hieger <rhieger@gmail.com>",
   "license": "ISC",
   "private": false,
+  "scripts": {
+    "test": "jest --verbose"
+  },
   "devDependencies": {
-    "axios": "^0.19.2",
     "eslint": "^7.1.0",
     "jest": "^26.0.1",
     "jsonserver": "^0.1.6"
+  },
+  "dependencies": {
+    "axios": "^0.19.2"
   }
 }
