@@ -1,0 +1,19 @@
+{
+  "name": "jest-zetcode-pass2",
+  "version": "1.0.0",
+  "description": "Tutorial Exercises for Jest Unit Testing",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest --verbose"
+  },
+  "author": "Robert Hieger",
+  "license": "MIT",
+  "private": false,
+  "devDependencies": {
+    "jest": "^26.4.2"
+  },
+  "dependencies": {
+    "axios": "^0.20.0",
+    "jsonserver": "^0.1.6"
+  }
+}
