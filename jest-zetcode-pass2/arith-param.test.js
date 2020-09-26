@@ -31,3 +31,14 @@ test.each(
     expect( mul(a, b) ).toBe(expected);
   }
 );
+
+test.each(
+  [
+    [1, 1, 1],
+    [-1, 2, -0.5],
+    [2, 2, 1]
+  ] )(
+    '%i / %i equals %i', (a, b, expected) => {
+      expect( div(a, b) ).toBe(expected);
+  }
+);
